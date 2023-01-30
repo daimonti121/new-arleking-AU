@@ -821,11 +821,14 @@ button.carousel__button.is-close {
 
     .circle {
         transform: scale(1);
+        top: 15%;
     }
 
     .popupImg {
         max-width: 250px;
     }
+
+    
 
 }
 
@@ -864,7 +867,7 @@ button.carousel__button.is-close {
         height: 618px;
         transform: scale(0.6);
         position: relative;
-        top: -14%;
+        top: 0%;
     }
 
     .logo {
@@ -1079,7 +1082,7 @@ button.carousel__button.is-close {
 
     .circle {
         transform: scale(0.5);
-        top: 0%;
+        top: -15%;
     }
 
     .logo {
@@ -1169,4 +1172,10 @@ button.carousel__button.is-close {
         width: 170px;
     }
 
+}
+
+@media (max-width: 540px) and (max-height: 720px) {
+    .circle {
+        top: -14%;
+    }
 }
