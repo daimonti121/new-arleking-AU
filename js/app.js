@@ -2,7 +2,7 @@ window.HUB_EVENTS={ASSET_ADDED:"ASSET_ADDED",ASSET_DELETED:"ASSET_DELETED",ASSET
 
 var colors = ["#3a1149", "#f30000", "#24177c", "#ec710b",
              "#3a1149", "#f30000", "#24177c", "#ec710b"];
-var prizes = ["TRY AGAIN", " 100% up to  6000 AUD", "50 FS", "100 FS", "NO WIN", "  50% up to   375 AUD", "200 FS", "  75% up to   450 AUD"];
+var prizes = ["TRY AGAIN", " 100% up to  6000 AUD", "50 FS", "100 FS", "NO WIN", "  50% up to   600 AUD", "200 FS", "  75% up to   450 AUD"];
 
 var startAngle = 0*Math.PI/180;
 var arc = (2 * Math.PI) / colors.length;
@@ -216,7 +216,7 @@ console.log("STAG -" + stag);
 
 
 $('.btn-2').click(function(){     
-    window.location.href = 'https://www.arlekincasino.com/en-CA/users/sign_up' + stag;
+    window.location.href = 'https://www.arlekincasino.com/en-AU/users/sign_up' + stag;
 })
 
 
